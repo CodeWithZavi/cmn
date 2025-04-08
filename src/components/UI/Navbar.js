@@ -79,6 +79,22 @@ const NavLink = styled(Link)`
   }
 `;
 
+const DemoButton = styled(Link)`
+  background: linear-gradient(90deg, #e94b27, #ff8c00);
+  color: #0f0f1e;
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 1rem;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 15px rgba(233, 75, 39, 0.5);
+  }
+`;
+
 const Navbar = () => {
   return (
     <NavContainer>
@@ -95,9 +111,10 @@ const Navbar = () => {
       <NavLinks>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/contact">Contact</NavLink>
+        <DemoButton to="/creator/1">Demo Creator</DemoButton>
       </NavLinks>
     </NavContainer>
   );
 };
 
-export default Navbar; 
+export default Navbar;

@@ -287,7 +287,7 @@ const Home = () => {
           </LogoContainer>
           <HeroTitle>Content Monetization Platform</HeroTitle>
           <HeroSubtitle>Redefining Digital Interaction Through Immersive Experiences</HeroSubtitle>
-          <CTAButton to="/">Start Monetizing</CTAButton>
+          <CTAButton to="/creator/1">Start Monetizing</CTAButton>
         </HeroContent>
       </HeroSection>
 
@@ -350,4 +350,4 @@ const Home = () => {
   );
 };
 
-export default Home; 
+export default Home;
