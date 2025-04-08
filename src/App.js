@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import styled from 'styled-components';
-import { act } from '@testing-library/react';
+
 
 // Pages
 import Home from './pages/Home';
